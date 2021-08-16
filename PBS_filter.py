@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from skimage.color import rgb2hsv, hsv2rgb
 # from glob import glob
-from skimage.restoration import denoise_wavelet, ellipsoid_kernel, estimate_sigma, rolling_ball
+from skimage.restoration import denoise_wavelet, estimate_sigma, rolling_ball
 
 from functools import partial
 # rescale_sigma=True required to silence deprecation warnings

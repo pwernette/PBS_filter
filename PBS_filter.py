@@ -128,11 +128,11 @@ if __name__ == '__main__':
     try:
         opts, args = getopt.getopt(argv,"h:r:")
     except getopt.GetoptError:
-        print('python mask_dem.py -r radius (px)')
+        print('python PBS_filter.py -r radius (px)')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('Example usage python mask_dem.py -r 5')
+            print('Example usage python PBS_filter.py -r 5')
             sys.exit()
         elif opt in ("-r"):
             radius = arg
